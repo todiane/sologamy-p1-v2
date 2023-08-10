@@ -10,7 +10,7 @@
     <meta name="keywords" content="sologamy, sologamy introduction, sologamy events" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Title -->
-    <title>Sologamy Club</title>
+    <title>Sologamy Club SignUp</title>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon//apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon//favicon-32x32.png" />
@@ -24,7 +24,7 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="http://index.html">
+        <a href="index.html">
             <h1 id="logo">Sologamy Club</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
@@ -39,7 +39,64 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+<!-- Title and introduction to page-->
+<section id="welcome">
+    <h2>Register</h2>
+
+    <div>
+        <p>Interested in joining The Sologamy Club? Complete the form below and hit the "Sign Me Up!" button. Our
+            Membership Co-ordinator
+            will be in touch.
+        </p>
+    </div>
+</section>
+
+<!--sign up form box-->
+<section id="signup">
+<section id="signup-form" style="display: flex; justify-content: center">
+    <form method="get" action="success.html" class="signup-form">
+        <h3>Let's get you registered! <i class="fas fa-heart"></i></h3>
+        <label for="fname">First Name</label>
+        <input id="fname" name="first_name" type="text" class="text-input" required>
+
+        <label for="lname">Last Name</label>
+        <input id="lname" name="last_name" type="text" required class="text-input">
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email_address" required class="text-input">
+        
+        <p class="details">I am interested in:</p>
+        <label for="road">Meetups</label>
+        <input type="radio" id="road" name="running_preference" value="road" required>
+        <label for="trail">Online only</label>
+        <input type="radio" id="trail" name="running_preference" value="trail" required>
+        <label for="both">Both</label>
+        <input type="radio" id="both" name="running_preference" value="both" required>
+        
+        <p class="details">How did you hear about us?</p>
+        <div>
+            <input type="checkbox" class="larger" id="friend-checkbox" name="friend">
+            <label for="friend-checkbox">Friend/Existing Member</label>
+        </div>
+        <div>
+            <input type="checkbox" class="larger" id="search-checkbox" name="search">
+            <label for="search-checkbox">Search Engine</label>
+        </div>
+        <div>
+            <input type="checkbox" class="larger" id="social-checkbox" name="social">
+            <label for="social-checkbox">Social Media</label>
+        </div>
+        <div>
+            <input type="checkbox" class="larger" id="flyer-checkbox" name="flyer">
+            <label for="flyer-checkbox">Flyer/Invite</label>
+        </div>
+
+        <input class="join-button" type="submit" value="Sign Me Up!">
+    </form>
+</section>
+
+    </main>
 
     <footer>
         <ul id="social-networks">
