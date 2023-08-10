@@ -213,6 +213,7 @@ main {
 #intro-top p {
     font-family: 'Lato', sans-serif;
     font-size: large;
+    line-height: 1.5rem;
 }
 
 #photos img {
@@ -290,6 +291,20 @@ main {
     color: #3a3a3a;
 }
 
+/* More About Sologamy page */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 /* MEDIA QUERY SECTION */
 
 /* Media query: tablets and larger (768px and up) */
@@ -352,20 +367,6 @@ main {
         align-self: flex-end;
     }
 
-    .video {
-        position: relative;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-
-    .video iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
     /* Gallery */
     #photos {
         column-count: 3;
@@ -393,6 +394,21 @@ main {
         color: #94cbcc;
     }
 
+        /* More About Sologamy page */
+        .iframe-container {
+            margin-top: 30px;
+            /* position: relative; */
+            width: 90%;
+            /* padding-bottom: 56.25%; */
+            margin: 10px auto;
+            height: 0;
+        }
+    
+        .iframe-container iframe {
+            /* position: absolute; */
+            width: 50%;
+            height: 50%;
+        }
 }
 
 
