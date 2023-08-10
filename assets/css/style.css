@@ -30,7 +30,7 @@ h3 {
 p {
     font-family: 'Lato', sans-serif;
     font-size: medium;
-    
+
 }
 
 /* Header */
@@ -253,7 +253,7 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #454b1b;
+    background-color: #94cbcc;
     color: #fafafa;
 }
 
@@ -358,9 +358,9 @@ main {
 
     .join-button:hover {
         background-color: #fafafa;
-        color: #454b1b;
+        color: #94cbcc;
     }
-        
+
 }
 
 
