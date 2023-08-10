@@ -27,6 +27,12 @@ h3 {
     color: #252525;
 }
 
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -186,6 +192,16 @@ main {
     color: #fafafa;
 }
 
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -201,7 +217,8 @@ main {
     color: #3a3a3a;
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* MEDIA QUERY SECTION */
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -227,8 +244,8 @@ main {
     }
 
     #logo {
-        font-size: 280%;
-        line-height: 75px;
+        font-size: 180%;
+        line-height: 55px;
         margin: 0 0.5rem;
     }
 
@@ -244,32 +261,44 @@ main {
         right: 50px;
     }
 
-    /* Reasons section */
-    #benefits-physical,
-    #benefits-mental {
+    /* Welcome section */
+    #intro-left,
+    #intro-right {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benefits-physical>div,
-    #benefits-mental>div {
+    #intro-left>div,
+    #intro-right>div {
         width: 75%;
     }
 
-    #benefits-mental>div {
+    #intro-right>div {
         text-align: end;
         align-self: flex-end;
     }
 
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
+
 }
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
 }
+
 
 @media screen and (min-width: 1200px) {
 
