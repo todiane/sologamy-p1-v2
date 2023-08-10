@@ -197,6 +197,18 @@ main {
 }
 
 /* Gallery page */
+
+#intro-top {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#intro-top h2 {
+    /* padding: 15px; */
+    margin-top: 30px;
+    text-align: center;
+    font-size: 200%;
+}
 #photos img {
     width: 100%;
     line-height: 1em;
