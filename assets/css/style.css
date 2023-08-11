@@ -292,6 +292,13 @@ main {
 }
 
 /* More About Sologamy page */
+
+.article {
+    width: 95%;
+    margin: 20px auto;
+}
+
+/* video frame */
 .iframe-container {
     position: relative;
     width: 100%;
